@@ -11,7 +11,7 @@ const App = () => {
   return (
     <View style={{flex:1}}>
        <ImageBackground style={styles.container} source={imgUrl} resizeMode='cover'>
-            <View style={{marginHorizontal:10}}>
+            <View style={{marginHorizontal:20}}>
               <Image source={{uri: 'https://genk.mediacdn.vn/2018/6/18/1-15293075280581597797159.jpg'}} resizeMode='cover' height={150}></Image>
               <Text style={[styles.text, {textAlign:'right'}]}>REGISTER</Text>
               <View>
